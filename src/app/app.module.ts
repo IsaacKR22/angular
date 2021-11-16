@@ -10,13 +10,20 @@ import {MatIconModule} from '@angular/material/icon';
 import { FooterComponent } from './views/footer/footer.component';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './views/home/home.component';
+import { MenuComponent } from './views/menu/menu.component';
+import { RodapeComponent } from './views/rodape/rodape.component';
+import { ContatoComponent } from './views/contato/contato.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent,
+    RodapeComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +31,8 @@ import { HomeComponent } from './views/home/home.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
