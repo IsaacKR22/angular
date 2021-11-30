@@ -14,6 +14,7 @@ import { MenuComponent } from './views/menu/menu.component';
 import { RodapeComponent } from './views/rodape/rodape.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import {MatSelectModule} from '@angular/material/select';
+import { CadastroJogosComponent } from './views/cadastro-jogos/cadastro-jogos.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {MatSelectModule} from '@angular/material/select';
     HomeComponent,
     MenuComponent,
     RodapeComponent,
-    ContatoComponent
+    ContatoComponent,
+    CadastroJogosComponent
   ],
   imports: [
     BrowserModule,
