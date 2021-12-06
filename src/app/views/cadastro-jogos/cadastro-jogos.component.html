@@ -2,31 +2,31 @@
  <form>
     <div class="form-row">
         <div class="form-group col-md-12">
-          <label for="inputEmail4">⏬ID⏬</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="">
+          <label for="inputId">⏬ID⏬</label>
+          <input type="id" class="form-control" id="inputId" placeholder="">
         </div>
         <div class="form-group col-md-12">
-          <label for="inputPassword4">⏬NOME DO JOGO⏬</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="">
+          <label for="inputNome">⏬NOME DO JOGO⏬</label>
+          <input type="email" class="form-control" id="inputNome" placeholder="">
         </div>
       </div>
       
       <div class="form-row">
         <div class="form-group col-md-12">
-          <label for="inputCity">⏬TIPO⏬</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="">
+          <label for="inputTipo">⏬TIPO⏬</label>
+          <input type="text" class="form-control" id="inputTipo" placeholder="">
         </div>
         
         <div class="form-group col-md-12">
-          <label for="inputZip">⏬EMPRESA DESENVOLVEDORA⏬
+          <label for="inputEmpresa">⏬EMPRESA DESENVOLVEDORA⏬
           </label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" class="form-control" id="inputEmpresa">
         </div>
       </div>
       <BR>
 
-      <button type="button" class="btn btn-primary"onclick="alert('Você clicou em EXIBIR')">EXIBIR</button>
-      <button type="submit" class="btn btn-primary"onclick="alert('Você clicou em CADASTRO')">CADASTRAR</button>
-      <button type="submit" class="btn btn-primary"onclick="alert('Você clicou em ATUALIZAR')">ATUALIZAR</button>
-      <button type="submit" class="btn btn-primary"onclick="alert('Você clicou em APAGAR')">APAGAR</button>
-    </form>
+      <button type="button" class="btn btn-primary"(click)="exibir()">EXIBIR</button>
+      <button type="submit" class="btn btn-primary"(click)="cadastrar()">CADASTRAR</button>
+      <button type="submit" class="btn btn-primary"(click)="atualizar()">ATUALIZAR</button>
+      <button type="submit" class="btn btn-primary"(click)="deletar()">APAGAR</button>
+  </form>
